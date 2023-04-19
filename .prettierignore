@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+
+*.css
+*.json
+*.html
+*.md
+*.vue
+*.yml
+*.yaml
