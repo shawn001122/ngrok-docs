@@ -57,7 +57,7 @@ ngrok api reserved-domains create \
 
 - Replace or set `NGROK_SUBDOMAIN` as the subdomain you'd like to use for this guide.
 
-  </TabItem>
+    </TabItem>
 <TabItem value="curl" label="CURL">
 
 ```bash
@@ -76,8 +76,9 @@ BODY
 - Replace or set `NGROK_API_KEY` to your ngrok API key.
 - Replace or set `NGROK_SUBDOMAIN` as the subdomain you'd like to use for this guide.
 
-    </TabItem>
-</Tabs>
+      </TabItem>
+
+  </Tabs>
 
 After running, you should see the following:
 
@@ -107,7 +108,7 @@ ngrok api edges https create \
 
 - Replace or set `NGROK_SUBDOMAIN` with the value used in the previous step.
 
-  </TabItem>
+    </TabItem>
 <TabItem value="curl" label="CURL">
 
 ```bash
@@ -128,8 +129,9 @@ BODY
 - Replace or set `NGROK_API_KEY` to your ngrok API key.
 - Replace or set `NGROK_SUBDOMAIN` with the value used in the previous step.
 
-    </TabItem>
-</Tabs>
+      </TabItem>
+
+  </Tabs>
 
 After running, you should see:
 
@@ -192,8 +194,9 @@ BODY
 
 - Replace or set `NGROK_API_KEY` to your ngrok API key.
 
-    </TabItem>
-</Tabs>
+      </TabItem>
+
+  </Tabs>
 
 You will get something back like:
 
@@ -243,8 +246,9 @@ BODY
 
 - Replace or set `NGROK_API_KEY` to your ngrok API key.
 
-    </TabItem>
-</Tabs>
+      </TabItem>
+
+  </Tabs>
 
 You will get something back like:
 
@@ -281,7 +285,7 @@ ngrok api backends weighted create \
 - Replace or set `NGROK_EU_BACKEND_ID` to the id returned in step 3.
 - ℹ️ Backend weights can be any valid integer between `0` to `10000`
 
-  </TabItem>
+    </TabItem>
 <TabItem value="curl" label="CURL">
 
 ```bash
@@ -307,8 +311,9 @@ BODY
 - Replace or set `NGROK_EU_BACKEND_ID` to the id returned in step 3.
 - ℹ️ Backend weights can be any valid integer between `0` to `10000`
 
-    </TabItem>
-</Tabs>
+      </TabItem>
+
+  </Tabs>
 
 You should see the following output indicating we have created a new backend with our tunnel-groups weighted:
 
@@ -351,7 +356,7 @@ ngrok api edges https-routes create ${NGROK_EDGE_ID} \
 - Replace or set `NGROK_EDGE_ID` to the id returned in step 2.
 - Replace or set `NGROK_BACKEND_ID` to the id returned in step 4.
 
-  </TabItem>
+    </TabItem>
 <TabItem value="curl" label="CURL">
 
 ```bash
@@ -378,8 +383,9 @@ BODY
 - Replace or set `NGROK_API_KEY` to your ngrok API key.
 - Replace or set `NGROK_BACKEND_ID` to the id returned in step 4.
 
-    </TabItem>
-</Tabs>
+      </TabItem>
+
+  </Tabs>
 
 After running, you should get back a route with our edge and backend configured:
 
